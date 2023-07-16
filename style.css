@@ -3,26 +3,26 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'VT323', monospace;
-  }
-  
-  .fa-thin {
+}
+
+.fa-thin {
     font-size: 45px;
-  }
-  
-  .nav-bar {
+}
+
+.nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  
-  .nav-bar a {
+}
+
+.nav-bar a {
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 26px;
-  }
-  
-  .img-1 {
+}
+
+.img-1 {
     background: url(./assets/newjaund\ album.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -31,9 +31,9 @@
     height: 500px;
     border-radius: 15px;
     text-align: center;
-  }
-  
-  .img-2 {
+}
+
+.img-2 {
     background-image: url(./assets/ditto.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -43,10 +43,10 @@
     border-radius: 15px;
     text-align: center;
     filter: contrast(80%);
-  
-  }
-  
-  .img-3 {
+
+}
+
+.img-3 {
     background-image: url(./assets/nw.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -56,94 +56,94 @@
     border-radius: 15px;
     text-align: center;
     filter: contrast(50%)
-  }
-  
-  .img-1 h3 {
+}
+
+.img-1 h3 {
     color: white;
     font-size: 60px;
     rotate: -15deg;
-  }
-  
-  .img-2 h3 {
+}
+
+.img-2 h3 {
     color: white;
     margin-top: 30%;
     font-size: 32px;
-  }
-  
-  .img-3 h3 {
+}
+
+.img-3 h3 {
     color: black;
     font-size: 30px;
     margin-top: 60%;
-  
-  }
-  
-  input {
+
+}
+
+input {
     width: 60vh;
     height: 50px;
     font-size: 20px;
     border-radius: 5px;
-  }
-  
-  .btn-form {
+}
+
+.btn-form {
     font-size: 25px;
     border-radius: 10px;
     padding: 3px;
-  }
-  
-  .input-mail {
+}
+
+.input-mail {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-  }
-  
-  .search {
+}
+
+.search {
     width: auto;
     border-radius: 20px;
     text-align: center;
-  }
-  
-  #main-banner {
+}
+
+#main-banner {
     display: flex;
     justify-content: space-around;
-  }
-  
-  .title {
+}
+
+.title {
     display: flex;
     justify-content: center;
     font-size: 35px;
-  }
-  
-  .catalogo {
+}
+
+.catalogo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     margin-top: 50px;
-  }
-  
-  .producto {
+}
+
+.producto {
     background-color: rgb(126, 147, 186);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-  }
-  
-  .producto img {
+}
+
+.producto img {
     width: 100%;
     max-width: 400px;
     height: auto;
     border-radius: 5px;
-  }
-  
-  .producto h3 {
+}
+
+.producto h3 {
     margin-top: 10px;
     font-size: 36px;
-  }
-  
-  .producto p {
+}
+
+.producto p {
     font-size: 30px;
-  }
-  
-  .producto a {
+}
+
+.producto a {
     display: block;
     margin-top: 5px;
     color: #333;
@@ -151,54 +151,54 @@
     font-size: 35px;
     background-color: white;
     border-radius: 10px;
-  }
-  
-  .social-network h1 {
+}
+
+.social-network h1 {
     font-size: 55px;
-  
-  }
-  
-  .shy-image {
+
+}
+
+.shy-image {
     width: 20vw;
     border-radius: 50%;
     border: solid 2px rgb(126, 147, 186);
-  }
-  
-  .net-container {
+}
+
+.net-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
     align-items: center;
-  }
-  
-  .fa-brands {
+}
+
+.fa-brands {
     font-size: 250px;
-  }
-  
-  .net-title {
+}
+
+.net-title {
     display: flex;
     justify-content: center;
-  }
-  
-  .join {
+}
+
+.join {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     padding: 1% 10% 1% 10%
-  }
-  
-  .join-image {
+}
+
+.join-image {
     width: 20vw;
     border-radius: 50%;
     border: solid 3px rgb(126, 147, 186);
-  }
-  
-  .join h2 {
+}
+
+.join h2 {
     font-size: 40px;
-  }
-  
-  #social-footer {
+}
+
+#social-footer {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -207,140 +207,143 @@
     background-color: rgb(126, 147, 186);
     border-radius: 10px;
     margin-top: 30px;
-  
-  }
-  
-  .container-foot {
+
+}
+
+.container-foot {
     background-color: rgb(159, 184, 210);
     padding: 40px;
     font-size: 36px;
     border-radius: 10%;
-  }
-  
-  .container-foot a {
+}
+
+.container-foot a {
     text-decoration: none;
-  }
-  
-  li {
+}
+
+li {
     list-style: none;
-  }
-  
-  @media (max-width: 390px) {
+}
+
+
+
+@media (max-width: 390px) {
     .nav-bar {
-      display: flex;
-      display: block;
-  
+        display: flex;
+        display: block;
+
     }
-  }
-  
-  @media (max-width: 390px) {
+}
+
+@media (max-width: 390px) {
     #main-banner {
-      display: flex;
-      display: block;
-      width: 100%;
-  
-  
+        display: flex;
+        display: block;
+        width: 100%;
+
+
     }
-  }
-  
-  @media (max-width: 390px) {
+}
+
+@media (max-width: 390px) {
     .img-1 {
-      display: flex;
-      display: block;
-      width: 380px;
-  
+        display: flex;
+        display: block;
+        width: 380px;
+
     }
-  }
-  
-  @media (max-width: 390px) {
+}
+
+@media (max-width: 390px) {
     .img-2 {
-      display: flex;
-      display: block;
-      width: 380px;
-      margin-top: -60px;
-  
-  
+        display: flex;
+        display: block;
+        width: 380px;
+        margin-top: -60px;
+
+
     }
-  }
-  
-  @media (max-width: 390px) {
+}
+
+@media (max-width: 390px) {
     .img-3 {
-      display: flex;
-      display: block;
-      width: 380px;
-      margin-top: -180px;
-  
+        display: flex;
+        display: block;
+        width: 380px;
+        margin-top: -180px;
+
     }
-  }
-  
-  @media (max-width: 390px) {
+}
+
+@media (max-width: 390px) {
     .img-1 h3 {
-      display: flex;
-      display: block;
-      text-align: center;
-      justify-content: center;
-  
+        display: flex;
+        display: block;
+        text-align: center;
+        justify-content: center;
+
     }
-  }
-  
-  @media (max-width: 390px) {
+}
+
+@media (max-width: 390px) {
     .input-mail input {
-      display: flex;
-      display: block;
-      width: 300px;
-       
-  
+        display: flex;
+        display: block;
+        width: 300px;
+
+
     }
-  }
-  @media (max-width: 390px) {
-    .btn-form{
-      display: flex;
-      display: block;
-      margin-left: 100px;
-       }
-  }
-  
-  @media (max-width: 390px) {
-    .title{
-      display: flex;
-      margin-left: 50px;
-       }
-  }
-  
-  @media (max-width: 390px) {
-    .catalogo{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-       }
-  }
-  
-  @media (max-width: 390px) {
-    .net-title{
-      margin-left: 50px;
-       }
-  }
-  @media (max-width: 390px) {
-    .net-title h1{
-      font-size: 25px;
-       }
-  }
-  @media (max-width: 390px) {
-    .net-container img{
-      width: 100px;
-      height: 100px;
-       }
-  }
-  
-  @media (max-width: 390px) {
-    .fa-brands{
-     font-size: 60px;
-       }
-  }
-  
-  @media (max-width: 390px) {
-    #social-footer{
-     display: block;
-       }
-  }
-  
-  
+}
+
+@media (max-width: 390px) {
+    .btn-form {
+        display: flex;
+        display: block;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 390px) {
+    .title {
+        display: flex;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    .catalogo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 390px) {
+    .net-title {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    .net-title h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 390px) {
+    .net-container img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 390px) {
+    .fa-brands {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 390px) {
+    #social-footer {
+        display: block;
+    }
+}
